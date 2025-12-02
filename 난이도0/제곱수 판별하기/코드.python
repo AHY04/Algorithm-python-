@@ -1,0 +1,7 @@
+def solution(n):
+    if (n**0.5).is_integer():
+        return 1
+    else:
+        return 2
+
+  ## .is_integer()함수를 사용하여 주어진 수의 1/2승이 정수로 떨어지는지 아닌지를 판별
